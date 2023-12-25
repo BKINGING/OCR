@@ -20,8 +20,8 @@ import javax.crypto.Mac;
 import javax.crypto.spec.SecretKeySpec;
 
 public class SignUtil {
-    private static String SecretId = "AKIDTyBQnFqOgqAMR785zpY3KNmFgW9YkhOs";//传入自己的secretId
-    private static String SecretKey = "KPPOEuSutl8OWULyMXgpsriOsD4mIk12";//传入自己的secretKey
+    private static String SecretId = "";//传入自己的secretId
+    private static String SecretKey = "";//传入自己的secretKey
 
     private static String Url = "https://ocr.tencentcloudapi.com";
     // ************* 步骤 1：拼接规范请求串 *************
